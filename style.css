@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+
+.main {
+    display: grid;
+    /* grid-gap: 10px; */
+    grid-template-columns: 20% 50% 30%;
+    /* grid-template-rows: 20% 50% 30%; */
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    /* row-gap: 10px; */
+    /* column-gap: 10px; */
+    justify-content: center;
+    justify-items: center;
+}
+
+
+
+.one {
+    display: flex;
+    /* position: ; */
+    /* margin-left: 90px; */
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    /* border-right: 2px solid rgb(132, 131, 131, 0.2); */
+
+    padding-right: 30px;
+}
+
+#cheej1 {
+    margin: 10px 0px 20px 0px;
+}
+
+#cheej1 img {
+    width: 60px;
+    height: 50px;
+}
+
+#cheej2 {
+    color: rgb(29 155 240);
+    font-size: larger;
+}
+
+.fonts {
+    font-size: large;
+    font-weight: bolder;
+}
+
+#cheej8 {
+    display: flex;
+}
+
+/* 
+#cheej8 span {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} */
+#cheej8 img {
+    width: 26px;
+    border-radius: 50%;
+    height: 26px;
+    margin-right: 5px;
+    margin-left: -3px;
+}
+
+#cheej10 button {
+
+    padding: 10px 60px 10px 60px;
+    color: white;
+    background-color: rgb(29 155 240);
+    border-radius: 15px;
+    border: none;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#cheej10 button:hover {
+    background-color: rgb(4, 113, 186);
+    cursor: pointer;
+
+}
+
+
+
+
+/* *************** Two ************* */
+
+
+.two {
+
+    border-left: 1px solid rgb(132, 131, 131, 0.2);
+    border-right: 1px solid rgb(132, 131, 131, 0.2);
+    display: flex;
+    
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 4px;
+    flex-direction: column;
+    /* background-color: aqua; */
+    width: 100%;
+    align-content: space-between;
+}
+
+#headerr {
+
+    padding: 10px;
+    /* background-color: aquamarine; */
+}
+
+#hd {
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+#st {
+    float: right;
+    color: rgb(5, 134, 220);
+    font-weight: bolder;
+    font-size: larger;
+    transition: 0.2s;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+#st:hover{
+    cursor: pointer;
+    color: rgb(4, 93, 153);
+}
+
+#star {
+    display: inline-block;
+    padding: 10px;
+    color: rgb(4, 113, 186);
+}
+
+#headerrr {
+    margin-top: 29px;
+}
+
+#headerrr span {
+    margin: 0px 7px;
+}
+
+#whatshappening {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* background-color: red; */
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    height: 14%;
+
+    border-bottom: 10px solid rgb(132, 131, 131, 0.2);
+}
+
+#whatshappening input {
+    margin: 0px 0px 0px 10px;
+    color: rgb(0, 0, 0);
+    width: 50%;
+    font-family: 'Ubuntu', sans-serif;
+    border: none;
+    font-size: larger;
+   
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
+
+#whatshappening img {
+    width: 40px;
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+
+.hd {
+    /* font-size: larg; */
+    font-weight: bolder;
+    font-size: x-large;
+    /* margin-top: 50px; */
+    color: rgb(4, 113, 186);
+    font-family: 'Ubuntu', sans-serif;
+    transition: 0.1s;
+}
+.hd:hover{
+    cursor: pointer;
+    color: rgb(0, 76, 127);
+}
+
+.st {
+    float: right;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.st button {
+    padding: 10px 20px 10px 20px;
+    color: white;
+    background-color: rgb(29 155 240);
+    border-radius: 15px;
+    border: none;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.st button:hover {
+    background-color: rgb(4, 113, 186);
+    cursor: pointer;
+
+}
+
+.post {
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.post img {
+    width: 40px;
+    margin: 2px 10px 2px 2px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.post p a {
+    color: rgb(202, 202, 202, 0.9);
+}
+
+.post-description {
+    min-height: 5vh;
+    max-height: 50vh;
+}
+
+.post-description p {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 2px 5px 5px 50px; 
+}
+
+.post-description a {
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(30, 90, 255);
+    font-weight: 600;
+    margin: 8px 5px 5px 50px;
+}
+
+.post-description img {
+    max-height: 30vh;
+    max-width: 90%;
+    padding: 10px;
+    margin: 8px 5px 5px 40px;
+    width: 90%;
+    border-radius: 15px;
+}
+
+.reaction {
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+    /* margin-bottom: 500px; */
+    /* background-color: aqua; */
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(132, 131, 131, 0.7);
+}
+
+#react1,
+#react2,
+#react3,
+#react4 {
+    color: rgb(144, 144, 144);
+    font-weight: 200;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 10px 0px 0px 50px;
+    transition: 0.2s;
+    font-size: large;
+    /* border: 1px solid black; */
+}
+#react1:hover,
+#react2:hover,
+#react3:hover,
+#react4 :hover{
+    cursor: pointer;
+    color: rgb(29 155 240);
+
+}
+
+
+
+/* ********************* 3 ******************** */
+
+.three{
+    margin-left: 20px;
+}
+#srch input[type=text]{
+    margin-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 15px;
+    padding:10px 50px;
+    border: none;
+    background-color: rgb(233, 233, 233);
+    color: rgb(0, 0, 0);
+}
+.box{
+    background-color: rgb(240, 240, 240);
+    margin-top: 10px;
+    font-family: 'Baloo 2', cursive;
+    border-radius: 15px;
+    
+    padding: 10px;
+}
+.achone{
+    font-family: 'Merriweather', serif;
+    font-weight:bolder;
+    font-size: larger;
+    margin-bottom: 3px;
+}
+.pee{
+    margin-top: 10px;
+    color: rgb(85, 85, 85);
+    margin-bottom: 1px;
+}
+.pee:hover{
+    cursor: pointer;
+
+}
+.boxhash{
+    margin-bottom: 1px;
+}
+.shotabox{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 15px;
+    /* padding: 10px; */
+    margin-bottom: 6px;
+}
+.shotabox:hover{
+    cursor: pointer;
+}
+#shotaboxh{
+    padding: 2px 0px 1px 6px;
+    color: rgb(85, 85, 85);
+
+}
+#numbers{
+    margin: 0px 0px 1px 0px;
+    color: rgb(85, 85, 85);
+    
+}
+#shotaboxp{
+    padding: 0px 5px 2px 6px;
+    color: rgb(0, 0, 0);
+    font-size: smaller;
+    font-weight: 400;
+
+}
+
+.shotabox img{
+    background-color: black;
+    /* width: 80%;
+    height: 50%; */
+    /* padding: -10px -10px -10px 0px; */
+    padding: -10px;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+}
+#numbertweets{
+    margin-bottom: 10px;
+}
+
+/* *************** UTILITYIES ******************* */
+.mg-1 {
+    margin: 14px 0px 14px 0px;
+    transition: 0.3s;
+}
+.mg-1:hover {
+    cursor: pointer;
+    color: rgb(29 155 240);
+}
+/* abbr{
+    color: black;
+    background-color: aliceblue;
+} */
